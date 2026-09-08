@@ -1,10 +1,38 @@
 # Python-generated files
 __pycache__/
-*.py[oc]
+*.py[cod]
+
+# Build and distribution
 build/
 dist/
 wheels/
-*.egg-info
+*.egg-info/
 
 # Virtual environments
-.venv
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+log/
+*.log
+
+# YOLO training outputs
+runs/
+*.pt
+
+# Dataset
+data/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
